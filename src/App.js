@@ -6,7 +6,6 @@ function App() {
   const [todoList, setTodoList] = useState([
     { id: 1, title: "I love Easy Frontend!😍" },
     { id: 2, title: "We love Easy Frontend!😍" },
-    { id: 2, title: "We love Easy Frontend!😍" },
   ]);
 
   function handleTodoClick(todo) {
